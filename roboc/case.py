@@ -6,9 +6,9 @@ class Case:
     - robot : booléen qui indique si le robot se trouve à cette case ou non
     """
 
-    def __init__(self,nature,robot):
-        self.nature=nature
-        self.robot=robot
+    def __init__(self, nature, robot):
+        self.nature = nature
+        self.robot = robot
 
     """def robot_existe(self):
         return self.robot==True
@@ -31,13 +31,15 @@ class Case:
     def est_une_porte(self):
         return self.nature=="."
         """
+
     def il_y_a_robot(self):
-        return self.robot==True
+        return self.robot == True
 
     def __str__(self):
-        if self.robot==True :
+        if self.robot == True:
             return "X"
-        else :
+        else:
             return self.nature
+
 
 # { (ligne,colonne):case(nature,robot)}
