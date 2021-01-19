@@ -6,8 +6,10 @@ from fonctions import *
 
 
 # *******************
+
 def charger_les_cartes_existantes():
-    cartes = []  # liste des cartes ( les élèments sont de type : Carte )
+    # liste des cartes ( les élèments sont de type : Carte )
+    cartes = []
     for nom_fichier in os.listdir("cartes"):
         if nom_fichier.endswith(".txt") and nom_fichier != "partie_sauvegardee.txt":
             chemin = os.path.join("cartes", nom_fichier)
