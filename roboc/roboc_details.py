@@ -16,7 +16,8 @@ def charger_les_cartes_existantes():
             nom_carte = nom_fichier[:-3].lower()
             with open(chemin, "r") as fichier:
                 contenu = fichier.read()
-                # Création d'une carte
+
+                # création d'une carte
                 cartes.append(Carte(nom_carte, contenu))
     return cartes
 
