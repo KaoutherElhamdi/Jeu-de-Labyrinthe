@@ -1,3 +1,4 @@
+# coding=utf-8
 class Case:
     """
     - ligne : la ligne où se trouve la case en question
@@ -10,7 +11,8 @@ class Case:
         self.nature = nature
         self.robot = robot
 
-    """def robot_existe(self):
+    """
+    def robot_existe(self):
         return self.robot==True
 
     def robot_quitte(self):
@@ -30,7 +32,7 @@ class Case:
         return self.nature==mur    
     def est_une_porte(self):
         return self.nature=="."
-        """
+"""
 
     def il_y_a_robot(self):
         return self.robot == True
