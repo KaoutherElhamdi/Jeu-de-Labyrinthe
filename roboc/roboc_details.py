@@ -67,3 +67,5 @@ def choisir_une_carte(cartes):
                 )
                 test = False
     return carte
+
+# TEEEEEST TEST
