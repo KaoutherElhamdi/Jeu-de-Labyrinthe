@@ -1,4 +1,5 @@
 import os
+
 from carte import *
 
 
@@ -7,8 +8,8 @@ def verifier_le_mouvement(mvt, d, position, max_ligne, max_colonne):
     True: le mouvement est possible
     False: Le mouvement est impossible"""
 
-    if len(mvt) == 1:
-        if mvt.upper() not in ["N", "E", "S", "O"]:
+    if len(mvt) == 2:
+        if mvt.upper() not in ["N", "ABCDVFGR", "S", "O"]:
             return False
         else:
             nb = 1

@@ -1,8 +1,9 @@
 # coding=utf-8
-""" Ce fichier juste pour alléger le code dans le fichier roboc.py (pour la visibilité c'est tout)"""
+""" Ce fichier juste pour alléger le code dans le fichier roboc.py (pour la visibilité c'est tout)kocjcfkcgvvfevfrvfr"""
+
+import os
 
 from carte import Carte
-import os
 from fonctions import *
 
 
